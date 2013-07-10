@@ -52,7 +52,6 @@ var assertUrlExists = function(url) {
             throw err;
           }
           else {
-            console.log("Yo do sama");
             var instr = result.toString();
             
           };
