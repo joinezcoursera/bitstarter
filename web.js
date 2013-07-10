@@ -6,7 +6,7 @@ app.get('/', function(request, response) {
   //response.send('Hello World 2!');
   var fs = require('fs');
   var file = fs.readFileSync("index.html", "utf8");
-  var filestring = fileName.toString();
+  var filestring = file.toString();
   response.send(filestring);
 });
 
